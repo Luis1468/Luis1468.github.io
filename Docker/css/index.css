@@ -1,0 +1,11 @@
+
+.titulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    border-left: 10px red solid;
+    background-color: lightslategray;
+}
+a:visited{
+    color: red;
+}

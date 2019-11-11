@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    border-left: 10px red solid;
+    background-color: lightslategray;
+}
+span {
+    color: red;
+}
+#capas {
+    margin-top: 70px;
+}
+button {
+    margin-top: 20px;
+}
+footer {
+    margin-top: 20px;
+    height: 10px;
+    display: inline-block;
+}
+#email {
+    display: inline-block;
+}
+#name {
+    display: inline-block;
+    margin-right: 1550px;
+}
