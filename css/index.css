@@ -102,12 +102,13 @@ footer {
     text-aling: left;
 }
 .email {
-    text-align: right;
+    
     color: black;
     display: inline-block;
 }
 #name {
     display: inline-block;
+    margin-rigth: 79%;
 }
 h1{
     font-size: 3em;
