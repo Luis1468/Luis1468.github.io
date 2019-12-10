@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTTP</title>
+        <link rel="stylesheet" href="css/http.css">
+    </head>
+    <body>
+        <ul id="menu">
+            <li class="item">
+                <a href="../index.html">Home</a>
+            </li>
+            <li class="item">
+                <a href="../Docker/docker.html">DOCKER</a>
+            </li>
+            <li class="item">
+                <a href="../SSH/ssh.html">SSH</a>
+            </li>
+            <li class="item">
+                <a href="../ftp/ftp.html">FTP
+                </a>
+            </li>
+            <li class="item">
+                <a href="../http/http.html">HTTP</a>
+            </li>
+        </ul>
+        <div>
+            <p class="negrita">El HTTP utiliza como capa de transporte:</p>
+            <img src="img/http1.png" alt="httptrans"/>
+            <p>Utilizamos el puerto 80 como destino y el puerto 58144 como destino.</p>
+            <p>El tamaño de ventana es de 229 y el payload es de 87 bytes.</p>
+            <p class="negrita">El HTTP utiliza como capa de red:</p>
+            <img src="img/http2.png" alt="httpred"/>
+            <p>Como dirección ip de origen es 192.168.18.170</p>
+            <p>Como dirección ip de destino es 35.224.99.156</p>
+            <p>El header tiene un tamaño de 20 bytes</p>
+            <p>El protocolo es TCP</p>
+            <p class="negrita">El HTTP utiliza como capa de enlace:</p>
+            <img src="img/http3.png" alt="httpenlace"/>
+            <p>La LAN de origen es a0:d3:c1:0a:ba:f9</p>
+            <p>La LAN de destino es bc:ae:c5:5e:39:fe</p>
+            <p>Utiliza HTPP 1.1</p>
+            <img src="img/http4.png" alt="TCP"/>
+            <p>Ese es el acuerdo TCP a tres bandas donde en el priemr TCP es el cliente
+                solicitando la petición web, el segundo es el servidor dando esa petición al
+                cliente y el tercero es el cierre de la conversación</p>
+        </div>
+    </body>
+</html>
