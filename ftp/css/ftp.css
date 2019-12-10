@@ -109,3 +109,6 @@ yy .item:after {
     width: 80px;
     display: block;
 }
+.color{
+    color: red;
+}
