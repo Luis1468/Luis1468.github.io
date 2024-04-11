@@ -1,48 +1,108 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Mi web personal</title>
-        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        <title>Examen DEW</title>
     </head>
-    <body>
-        <div id="container">
-            <h1>Portfolio Redes</h1>
-            <nav role="navigation">
-                <div id="menuToggle">
-                    <input type="checkbox"/>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <ul id="menu">
-                        <a href="SSH/ssh.html">
-                            <li>SSH</li>
-                        </a>
-                        <a href="Docker/docker.html">
-                            <li>DOCKER</li>
-                        </a>
-                            
-                        <a href="ftp/ftp.html">
-                            <li>FTP</li></a>
-                        <a href="http/http.html">
-                            <li>HTTP</li>
-                        <a href="Camaleón/index.html">
-                            <li>Camaleón</li>                           
-                        </a>
-                    </ul>
-                </div>
-            </nav>
-            <footer>
-                <p id="name">Luis Liébanas Ávila</p>
-                <p class="email">
-                    <a
-                        href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
-                        target="_blank"
-                        class="email">Luis14liebanas@gmail.com</a>
-                </p>
-            </footer>
+    <body id="body">
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                background-color: #13505B;
+                color: beige;
+
+            }
+            h1 {
+                padding: 1.5%;
+                margin: 0;
+            }
+            #header {
+                color: white;
+                margin-top: 0;
+                padding-top: 0;
+                width: 100%;
+                text-align: center;
+                background-color: #040404;
+            }
+            #container {
+                text-align: center;
+            }
+            #p1 {
+                font-size: 2em;
+            }
+            form {
+                margin-top: 3%;
+                padding: 3%;
+                border-top: 1px solid black;
+            }
+            #fname {
+
+                margin-top: 0.2%;
+                width: 20%;
+                margin-bottom: 1%;
+            }
+            #lnumber {
+                margin-top: 0.2%;
+                width: 5%;
+            }
+            #borrar,
+            #cambiarColor,
+            #enviar {
+                border-radius: 8%;
+                border: none;
+                background-color: #0d6efd;
+                padding: 0.2%;
+                margin-right: 2%;
+                margin-left: 2%;
+                width: 5%;
+            }
+            #footer {
+                padding: 0.5%;
+                background-color: #040404;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+                font-size: 1em;
+            }
+            a {
+                color: bisque;
+            }
+            #borrar:hover,
+            #cambiarColor:hover,
+            #enviar:hover {
+                background-color: #0b4192;
+            }
+            a:hover {
+                color: rgb(153, 135, 114);
+            }
+        </style>
+        <div id="header">
+            <h1>EXAMEN DEW</h1>
         </div>
+        <div id="container">
+            <p id="p1">Formulario</p>
+            <form id="formulario">
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lnumber">Edad:</label><br>
+                <input type="number" id="lnumber" name="lnumber"><br><br>
+                <input type="button" id="enviar" value="Enviar">
+                <input type="button" id="borrar" value="Borrar">
+            </form>
+            <button id="cambiarColor" style="width: 8%;">Cambiar Color</button>
+            <div id="usuarios">
+                <p id="parrafo"></p>
+            </div>
+        </div>
+        <div id="footer">
+            <p>Hecho por
+                <a href="#">Luis Liebanas Avila</a>
+            </p>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./script.js" type="module"></script>
     </body>
 </html>
